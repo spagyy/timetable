@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
   background: #f4f7fb;
   margin: 0;
-  padding: 20px;
+  padding: clamp(10px, 3vw, 20px);
+
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 h1 {
   text-align: center;
   margin: 10px 0 0;
-  font-size: 36px;
+  font-size: clamp(22px, 5vw, 36px);
 }
 
 .subtitle {
@@ -38,20 +39,23 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   border-radius: 15px;
+  table-layout: fixed;
 }
 
 thead th {
   background: #0b5ed7;
   color: white;
   padding: 10px 5px;
-  font-size: 13px;
+  font-size: clamp(10px, 1.8vw, 13px);
 }
 
 tbody td, tbody th {
   border: 1px solid #e6e6e6;
-  height: 60px;
   text-align: center;
   vertical-align: middle;
+  height: clamp(40px, 6vw, 60px);
+  padding: clamp(4px, 1vw, 8px);
+  font-size: clamp(11px, 2vw, 14px);
 }
 
 tbody th {
@@ -63,10 +67,12 @@ tbody th {
 
 .badge {
   display: inline-block;
-  padding: 6px 12px;
   border-radius: 20px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: clamp(10px, 1.8vw, 13px);
+  padding: clamp(4px, 0.8vw, 6px) clamp(6px, 1.2vw, 12px);
+  white-space: normal;
+  text-align: center;
 }
 
 .mat { background: #ffc025; }
