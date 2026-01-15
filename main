@@ -6,90 +6,92 @@
   <title>Orbis Rozvrh S1I</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-<nav class="schedule-container"></nav>
-<div class="container">
+  <body>
+  <nav class="schedule-container"></nav>
+  <div class="container">
   <div class="header">
     <div>ORBIS, Střední škola, nám. T. G. Masaryka 1279, Zlín</div>
     <div>Třídní učitel: František Grombíř</div>
   </div>
   <h1>S1I</h1>
   <div class="subtitle">Rozvrh hodin pro školní rok 2025/2026</div>
-<table>
-  <thead>
-  <tr>
-    <th>Den</th>
-    <th>0.<br><small>7:30 - 8:15</small></th>
-    <th>1.<br><small>8:20 - 9:05 </small></th>
-    <th>2.<br><small>9:15 - 10:00</small></th>
-    <th>3.<br><small>10:20 - 11:05</small></th>
-    <th>4.<br><small>11:15 - 12:00</small></th>
-    <th>5.<br><small>12:10 - 12:55</small></th>
-    <th>6.<br><small>13:05 - 13:50</small></th>
-    <th>7.<br><small>14:00 - 14:45</small></th>
-    <th>8.<br><small>14:50 - 15:35</small></th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <th>Po</th>
-    <td></td>
-    <td><span class="badge mat">MAT</span><br></td>
-    <td><span class="badge anj">ANJ</span><br></td>
-    <td colspan="2">
-      <span class="badge mut">MUT</span><br></td>
-    <td></td>
-    <td colspan="2">
-      <span class="badge ict">ICT<br></span></td>
-    <td></td>
-  <tr>
-    <th>Út</th>
-    <td colspan="2">
-      <span class="badge tev">TV - chlapci<br></span></td>
-    <td><span class="badge mat">MAT</span><br></td>
-    <td><span class="badge mam">MAM</span><br></td>
-    <td></td>
-    <td><span class="badge cvd">ČVD</span><br></td>
-    <td><span class="badge bie">BIO</span><br></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>St</th>
-    <td colspan="2">
-      <span class="badge mat">MAT</span><br></td>
-    <td><span class="badge kaj">KAJ</span><br></td>
-    <td colspan="2">
-      <span class="badge dma">DMA</span><br></td>
-    <td><span class="badge anj">ANJ</span><br></td>
-    <td></td>
-    <td><span class="badge ppc">PPC</span><br></td>
-    <td><span class="badge cjl">ČJL</span><br></td>
-  </tr>
-  <tr>
-    <th>Čt</th>
-    <td><span class="badge mut">MUT</span><br></td>
-    <td><span class="badge anj">ANJ</span><br></td>
-    <td><span class="badge mam">MAM</span><br></td>
-    <td><span class="badge cjl">ČJL</span><br></td>
-    <td><span class="badge fyz">FYZ</span><br></td>
-    <td></td>
-    <td colspan="2">
-      <span class="badge ict"> ICT</span><br></td>
-    <td><span class="badge ppc">PPC</span><br></td>
-  </tr>
-  <tr>
-    <th>Pá</th>
-    <td><span class="badge cjl">ČJL</span><br></td>
-    <td><span class="badge bie">BIE</span><br></td>
-    <td colspan="2">
-      <span class="badge wpa">WPA</span><br></td>
-    <td></td>
-    <td><span class="badge cvd">ČVD</span><br></td>
+  <div class="table-wrapper">
+  <table>
+    <thead>
+    <tr>
+      <th>Den</th>
+      <th>0.<br><small>7:30 - 8:15</small></th>
+      <th>1.<br><small>8:20 - 9:05 </small></th>
+      <th>2.<br><small>9:15 - 10:00</small></th>
+      <th>3.<br><small>10:20 - 11:05</small></th>
+      <th>4.<br><small>11:15 - 12:00</small></th>
+      <th>5.<br><small>12:10 - 12:55</small></th>
+      <th>6.<br><small>13:05 - 13:50</small></th>
+      <th>7.<br><small>14:00 - 14:45</small></th>
+      <th>8.<br><small>14:50 - 15:35</small></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th>Po</th>
+      <td></td>
+      <td><span class="badge mat">MAT</span><br></td>
+      <td><span class="badge anj">ANJ</span><br></td>
+      <td colspan="2">
+        <span class="badge mut">MUT</span><br></td>
+      <td></td>
+      <td colspan="2">
+        <span class="badge ict">ICT<br></span></td>
+      <td></td>
+    <tr>
+      <th>Út</th>
+      <td colspan="2">
+        <span class="badge tev">TV - chlapci<br></span></td>
+      <td><span class="badge mat">MAT</span><br></td>
+      <td><span class="badge mam">MAM</span><br></td>
+      <td></td>
+      <td><span class="badge cvd">ČVD</span><br></td>
+      <td><span class="badge bie">BIO</span><br></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>St</th>
+      <td colspan="2">
+        <span class="badge mat">MAT</span><br></td>
+      <td><span class="badge kaj">KAJ</span><br></td>
+      <td colspan="2">
+        <span class="badge dma">DMA</span><br></td>
+      <td><span class="badge anj">ANJ</span><br></td>
+      <td></td>
+      <td><span class="badge ppc">PPC</span><br></td>
+      <td><span class="badge cjl">ČJL</span><br></td>
+    </tr>
+    <tr>
+      <th>Čt</th>
+      <td><span class="badge mut">MUT</span><br></td>
+      <td><span class="badge anj">ANJ</span><br></td>
+      <td><span class="badge mam">MAM</span><br></td>
+      <td><span class="badge cjl">ČJL</span><br></td>
+      <td><span class="badge fyz">FYZ</span><br></td>
+      <td></td>
+      <td colspan="2">
+        <span class="badge ict"> ICT</span><br></td>
+      <td><span class="badge ppc">PPC</span><br></td>
+    </tr>
+    <tr>
+      <th>Pá</th>
+      <td><span class="badge cjl">ČJL</span><br></td>
+      <td><span class="badge bie">BIE</span><br></td>
+      <td colspan="2">
+        <span class="badge wpa">WPA</span><br></td>
+      <td></td>
+      <td><span class="badge cvd">ČVD</span><br></td>
+      <td></td>
+  <td></td>
+  <td></td>
   </table>
-    <td></td>
-    <td></td>
-    <td></td>
+</div>
 </div>
 </body>
 </html>
